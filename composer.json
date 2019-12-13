@@ -1,0 +1,26 @@
+{
+    "name": "cy/scanner",
+    "description": "Scan URLs from a array and inaccessible URLs",
+    "keywords": ["url","scanner","cy"],
+    "homepage": "http://cy.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cy",
+            "homepage": "http://cy.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "php" : ">=5.6.0"
+    },
+    "suggest": {
+        "league/csv" : "~9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "cy\\modern\\" : "src/"
+        }
+    }
+}
