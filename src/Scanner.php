@@ -1,6 +1,6 @@
 <?php
 
-namespace cy\modern\url;
+namespace cyyf\modern\url;
 
 use GuzzleHttp\Client;
 use League\Csv\Exception;

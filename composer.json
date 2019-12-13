@@ -1,5 +1,5 @@
 {
-    "name": "cy/scanner",
+    "name": "cyyf/scanner",
     "description": "Scan URLs from a array and inaccessible URLs",
     "keywords": ["url","scanner","cy"],
     "homepage": "http://cy.com",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "cy\\modern\\" : "src/"
+            "cyyf\\modern\\" : "src/"
         }
     }
 }
